@@ -14,6 +14,7 @@ ul{
 
 .rightHeader li {
 	float: right;
+	margin-left: 10px;
 }
 
 li a{
@@ -24,7 +25,18 @@ li a{
 
 .settingsicon {
 	position: relative;
-	top:-16px;
+	top:-10px;
+	width: 30px;
+}
+.notificationicon {
+	position: relative;
+	width: 30px;
+	top:-8px;
+}
+.usericon {
+	position: relative;
+	width: 30px;
+	top:-8px;
 }
 
 .searchArea{
@@ -39,9 +51,57 @@ li a{
 	right: 220px;
 }
 
-.footer li{
-	float: left;
+input[type=text]{
+	height: 40px;
+	width: 600px;
+	position: relative;
+	right:15%;
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin-top: 30px;
 }
+
+
+button {
+	display: inline-block;
+	background-color: #F4F4F4;
+	border: none;
+	color: #6B6B6B;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px 25px;
+	border-radius: 2px;
+
+	position: relative;
+	right: 2%;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.footer {
+	position: relative;
+	top: 320px;
+	height: 50px;
+	background-color: #F4F4F4;
+
+}
+
+.footer li a{
+	color: #6B6B6B;
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+
+.leftFooter li{
+	float: left;
+
+}
+.rightFooter li{
+	float: right;
+}
+
+
 
 
 
