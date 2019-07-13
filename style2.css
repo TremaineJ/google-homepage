@@ -30,12 +30,23 @@ li {
 .searchArea {
 	position: fixed;
 	top:30%;
-	left:40%;
+	left:50%;
 }
 
-.googleLogo {
+.logo {
+	width:400px;
 	position: relative;
-	left: -25%;
+	left:-40%;
+}
+
+input[type=text]{
+	height:40px;
+	width:500px;
+	position:relative;
+	left:-50%;
+	border: 1px solid grey;
+	border-radius: 30px;
+	margin-top: 20px;
 }
 
 
