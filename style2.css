@@ -1,0 +1,42 @@
+body{
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0:
+	padding: 0;
+}
+
+.header ul{
+	position: fixed;
+	top:0;
+	width:100%;
+}
+
+.leftHeader li {
+	float: left;
+}
+
+.rightHeader li {
+	float: right;
+}
+
+li {
+	display: block;
+	padding: 5px;
+}
+
+.footer ul{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.leftFooter li{
+	float: left;
+}
+
+.rightFooter li{
+	float: right;
+}
