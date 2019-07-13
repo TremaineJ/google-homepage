@@ -27,6 +27,19 @@ li {
 	padding: 5px;
 }
 
+.searchArea {
+	position: fixed;
+	top:30%;
+	left:40%;
+}
+
+.googleLogo {
+	position: relative;
+	left: -25%;
+}
+
+
+
 .footer ul{
 	position: fixed;
 	bottom: 0;
