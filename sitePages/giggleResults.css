@@ -15,10 +15,32 @@ ul {
 	float:left;
 	padding-left:20px;
 	padding-top: 20px;
-	
+	border-radius: 30px;
 }
 
 .googleLogo{
 	width:100px;
 }
 
+.subBody{
+	position:relative;
+	top:30px;
+}
+
+input[type=text]{
+	width: 500px;
+	height:40px;
+	position:relative;
+	border-radius:30px;
+}
+}
+
+.subHeader li{
+	float:left;
+	position:relative;
+
+}
+
+.resultsTime{
+	position:relative;
+}
